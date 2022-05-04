@@ -1,0 +1,17 @@
+.cart-section{
+    padding: 20px;
+}
+.cart-ulsection{
+    list-style-type: none;
+}
+.total-price-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.buynow-btn{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-width: 0px;
+    font-size: 25px;
+}

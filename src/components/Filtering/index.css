@@ -1,0 +1,34 @@
+.category-ul-section{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.category-li-section{
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.stars-images{
+    width: 150px;
+}
+.responsive-filter{
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    .desktop-tab-filter{
+        display: none;
+    }
+    .responsive-filter{
+        display: block;
+    }
+    .mobileview-filtering{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .select-caterogy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

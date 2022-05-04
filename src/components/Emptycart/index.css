@@ -1,0 +1,19 @@
+.empty-cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cart-btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 7px;
+}
+@media screen and (max-width:500px) {
+    .responsive-empty-img{
+        width: 300px;
+    }
+}

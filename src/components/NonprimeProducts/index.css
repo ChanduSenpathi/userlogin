@@ -1,0 +1,23 @@
+.products-li-container{
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+}
+.product-brand{
+    width: 100%;
+}
+.ratings-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-container{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.products-section{
+    padding: 20px 30px;
+}
+.loaders{
+    text-align: center;
+}
+.products-ul-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.allproduts-filtering-section{
+    display: flex;
+    justify-content: flex-start;
+}
+/* .filter-category-ratings-con{
+    width: 10%;
+} */
+.responsive-sortby{
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    .filter-category-ratings-con{
+        display: none;
+    }
+    .responsive-sortby{
+        display: block;
+    }
+}
